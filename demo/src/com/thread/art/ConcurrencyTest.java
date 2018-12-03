@@ -20,11 +20,6 @@ package com.thread.art;
 public class ConcurrencyTest {
 	private static final long count = 1001;
 
-	public static void main(String[] args) throws InterruptedException {
-		concurrency();
-		serial();
-	}
-
 	/**
 	 * 并发
 	 * 
@@ -68,6 +63,11 @@ public class ConcurrencyTest {
 		}
 		long time = System.currentTimeMillis() - start;
 		System.out.println("串行serial: " + time + "ms , b = " + b + ", a = " + a);
+	}
+	
+	public static void main(String[] args) throws InterruptedException {
+		concurrency();
+		serial();
 	}
 
 }
