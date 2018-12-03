@@ -1,8 +1,8 @@
 package com.qy.testThread;
 
 public class OnlyThread {
-	public static volatile int sum = 1;
-	public static volatile int count = 0;
+	public static int sum = 0;
+	public static int count = 1;
 	public static void main(String[] args) {
 		
 		final Thread t1 = new Thread() {
