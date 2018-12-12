@@ -4,15 +4,11 @@ public class Node {
 		int value;
 		Node left;
 		Node right;
-
 		public Node() {
-
 		}
-
 		public Node(int value) {
 			this.value = value;
 		}
-
 	public static void getNode(Node node, int level) {
 		if (node != null && level != 0) {
 			getNode(node.left, level - 1);
