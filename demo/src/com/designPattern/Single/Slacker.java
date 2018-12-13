@@ -1,4 +1,4 @@
-package com.designPattern.single;
+package com.designPattern.Single;
 /**
  * 懒汉式 单例 ， 调用效率不高 ， 可以延时加载
  * @author qin_Yue
