@@ -1,4 +1,4 @@
-package com.designPattern.FactoryMethod;
+package com.designPattern.MethodFactory;
 
 public class Byd implements Car{
 

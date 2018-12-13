@@ -1,4 +1,4 @@
-package com.designPattern.FactoryMethod;
+package com.designPattern.MethodFactory;
 
 public interface Car {
 	void run();
