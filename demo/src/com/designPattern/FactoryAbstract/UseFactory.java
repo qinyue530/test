@@ -1,4 +1,4 @@
-package com.designPattern.AbstractFactory;
+package com.designPattern.FactoryAbstract;
 
 public class UseFactory {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.designPattern.SimpleFactory;
+package com.designPattern.FactorySimple;
 /**
  * 测试在没有工厂模式下的情况
  * @author qin_Yue

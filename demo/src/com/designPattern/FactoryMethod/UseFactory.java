@@ -1,4 +1,4 @@
-package com.designPattern.MethodFactory;
+package com.designPattern.FactoryMethod;
 
 public class UseFactory {
 	public static void main(String[] args) {

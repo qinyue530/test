@@ -1,4 +1,4 @@
-package com.designPattern.SimpleFactory;
+package com.designPattern.FactorySimple;
 
 public class CarFactoey {
 	public static Car creatCar(String type) {
