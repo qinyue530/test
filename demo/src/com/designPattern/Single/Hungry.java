@@ -7,7 +7,7 @@ package com.designPattern.Single;
 public class Hungry {
 	private static Hungry instance  = new Hungry();
 	private Hungry() {}
-	public Hungry getSlacker() {
+	public static Hungry getSlacker() {
 		return instance;
 	}
 	

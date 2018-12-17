@@ -7,7 +7,7 @@ package com.designPattern.Single;
 public class Slacker {
 	private static Slacker instance ;
 	private Slacker() {}
-	public synchronized Slacker getSlacker() {
+	public static synchronized Slacker getSlacker() {
 		if(instance == null) {
 			instance = new Slacker();
 		}
