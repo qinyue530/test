@@ -1,4 +1,4 @@
-package com.qy.testStatic;
+package com.base.testStatic;
 
 public class testStatic {
 	private static int x = 100;

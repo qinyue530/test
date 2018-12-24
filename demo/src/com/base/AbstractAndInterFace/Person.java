@@ -1,4 +1,4 @@
-package com.qy.test;
+package com.base.AbstractAndInterFace;
 
 public abstract class Person {
 	private String name = "Persion";

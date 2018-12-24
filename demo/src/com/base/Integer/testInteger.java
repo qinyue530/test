@@ -1,4 +1,4 @@
-package com.qy.Integer;
+package com.base.Integer;
 
 public class testInteger {
 	public static void main(String[] args) {

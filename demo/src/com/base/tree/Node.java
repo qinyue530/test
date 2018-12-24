@@ -1,4 +1,4 @@
-package com.qy.tree;
+package com.base.tree;
 
 public class Node {
 		int value;

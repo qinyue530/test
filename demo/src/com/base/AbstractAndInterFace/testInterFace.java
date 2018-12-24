@@ -1,4 +1,4 @@
-package com.qy.test;
+package com.base.AbstractAndInterFace;
 
 public interface testInterFace {
 	public static int a = 1;

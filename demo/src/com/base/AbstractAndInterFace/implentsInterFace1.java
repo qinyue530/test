@@ -1,4 +1,4 @@
-package com.qy.test;
+package com.base.AbstractAndInterFace;
 
 public class implentsInterFace1 implements testInterFace{
 	public static int a = 6666666;

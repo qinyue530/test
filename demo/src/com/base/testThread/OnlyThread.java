@@ -1,4 +1,4 @@
-package com.qy.testThread;
+package com.base.testThread;
 
 public class OnlyThread {
 	public static int sum = 0;

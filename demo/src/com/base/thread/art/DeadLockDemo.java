@@ -1,4 +1,4 @@
-package com.thread.art;
+package com.base.thread.art;
 /*
 现在我们介绍避免死锁的几个常见方法。
 ·避免一个线程同时获取多个锁。

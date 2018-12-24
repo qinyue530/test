@@ -1,4 +1,4 @@
-package com.qy.test;
+package com.base.AbstractAndInterFace;
 /*
 ## Java 程序初始化顺序
 父类静态变量 -> 父类静态代码块 -> 子类静态变量 -> 子类静态代码块 -> 

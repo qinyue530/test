@@ -1,4 +1,4 @@
-package com.thread.art;
+package com.base.thread.art;
 /*
  串行：一个执行完再执行另一个
 

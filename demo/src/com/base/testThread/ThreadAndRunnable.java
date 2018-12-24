@@ -1,4 +1,4 @@
-package com.qy.testThread;
+package com.base.testThread;
 
 public class ThreadAndRunnable {
 	public static volatile int sum = 0;

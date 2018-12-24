@@ -1,4 +1,4 @@
-package com.qy.tree;
+package com.base.tree;
 
 import java.util.Stack;
 import java.util.Vector;
