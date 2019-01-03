@@ -2,7 +2,7 @@ package com.base.testThread;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class JUCThread {
+public class JUCThreadInt {
 	private static volatile AtomicInteger count = new AtomicInteger(0);
 	public static void main(String[] args) {
 		Runnable a = new Runnable() {
