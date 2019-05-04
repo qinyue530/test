@@ -4,12 +4,14 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class JUCThreadInt {
 	private static volatile AtomicInteger count = new AtomicInteger(0);
+//	static int count = 0;
 	public static void main(String[] args) {
 		Runnable a = new Runnable() {
 			@Override
 			public void run() {
 				for(int i = 0 ; i < 25 ; i++) {
 					count.incrementAndGet();
+//					count++;
 					System.out.println(count);
 				}
 			}
