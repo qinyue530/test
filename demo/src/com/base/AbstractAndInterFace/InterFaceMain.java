@@ -36,6 +36,7 @@ public class InterFaceMain {
 		System.out.println(A1.f);
 		System.out.println(A1.sf);
 		A1.jump();
+		A1.set();
 		
 	}
 }

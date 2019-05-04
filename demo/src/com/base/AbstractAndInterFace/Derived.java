@@ -18,21 +18,48 @@ class Base {
         System.out.println("Base constructor");
     }
 }
-
-public class Derived extends Base {
+class AAA extends Base{
     static {
-        System.out.println("Derived static block");
+        System.out.println("AAA static block");
     }
 
     {
-        System.out.println("Derived block");
+        System.out.println("AAA block");
     }
 
-    public Derived() {
-        System.out.println("Derived constructor");
+    public AAA() {
+        System.out.println("AAA constructor");
     }
+}
+class BBB extends AAA{
+    static {
+        System.out.println("BBB static block");
+    }
+
+    {
+        System.out.println("BBB block");
+    }
+
+    public BBB() {
+        System.out.println("BBB constructor");
+    }
+}
+class CCC extends AAA{
+    static {
+        System.out.println("CCC static block");
+    }
+
+    {
+        System.out.println("CCC block");
+    }
+
+    public CCC() {
+        System.out.println("CCC constructor");
+    }
+}
+public class Derived {
 
     public static void main(String[] args) {
-        new Derived();
+    	AAA a = new AAA();
     }
 }
