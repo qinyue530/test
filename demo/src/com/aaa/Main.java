@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		System.out.println("=================");
 		int n = sc.nextInt();
 		int w[] = new int[n];
 		int v[] = new int[n];
